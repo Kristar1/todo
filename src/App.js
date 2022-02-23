@@ -57,7 +57,7 @@ export default function App() {
         <Header title="My Todos List"/>
         <Routes>
           <Route
-            path="/"
+            path="/todolist"
             element={
               <>
                 <AddTodo addTodo={addTodo} />
